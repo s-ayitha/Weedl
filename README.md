@@ -22,6 +22,10 @@ Weedl is a small tracked robot that autonomously covers a backyard and removes w
 
 2. **Uproot mechanically, not chemically** Instead of spraying chemicals into the same garden where fruits and vegetables are grown, Weedl uses a double pivot fork to dig into the roots of a weed and lever it out.
 
+## Journaling/Devlogs
+
+I made this project with Hack Club Stardance. You can look at this project [here](https://stardance.hackclub.com/projects/14197).
+
 ---
 ## How it works
 
@@ -55,7 +59,7 @@ A **double-pivot fork** with chisel-ground tines, each pivot driven by a single 
 ### Power/Wiring
 Weedl runs off a single 3S LiPo battery, split into three isolated voltage rails so a motor or servo current spike can't brown out the compute stack: **11.1V** straight to the drive motors, **7.4V** through a UBEC for the servos, and a regulated **5V** through a buck converter for the Pi and Pico. Everything shares a common ground, and the HC-SR04's ECHO line runs through a 1kΩ/2kΩ voltage divider to protect the Pico's 3.3V GPIO from the sensor's 5V signal.
 
-![Weedl wiring diagram](hardware/WeedlWiringDiagram.drawio.svg)
+![Weedl wiring diagram](hardware/weedl-wiring-diagram-v2.png)
 
 ## Software / autonomy stack
 
