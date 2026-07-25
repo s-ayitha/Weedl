@@ -80,3 +80,35 @@ Running on the Pi under **ROS 2 Jazzy** (Ubuntu Server 24.04):
 **Weed detection** - a lightweight **TFLite** model runs directly on the Pi 5's CPU.
 
 **Behavior state machine** — the core loop: `SEARCH → APPROACH → ALIGN → INSERT → PRY → RELEASE → RESUME`.
+
+## Current Status
+
+Weedl is nearly done being designed.
+
+### Documentation
+- [x] Bill of Materials
+- [x] Wiring diagram
+- [ ] Schematic (KiCad) 
+- [x] CAD for custom 3D-printed parts (arm, claw)
+- [ ] Chassis assembly diagram 
+
+### Uprooting mechanism
+- [x] Force analysis complete 
+- [x] Arm and claw modeled and dimensioned
+- [x] Steel tine layout finalized
+- [ ] Pivot hole 
+- [ ] Parts printed
+- [ ] Tines cut, bent, and installed
+- [ ] Mechanism assembled and bench-tested
+
+### Compute & sensing
+- [x] ROS2 Jazzy install process worked out and documented
+- [x] RPLiDAR driver and odometry set up
+- [ ] Pico firmware — motor control, encoder processing, servo timing, safety watchdog
+- [ ] Nav2 / sensor fusion configuration
+- [ ] Weed-detection model trained
+
+### Chassis
+- [x] Chassis selected and ordered
+- [ ] Physically assembled
+- [ ] Mounting bracket for the arm — waiting on the chassis measurements above
