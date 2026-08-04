@@ -83,14 +83,13 @@ Running on the Pi under **ROS 2 Jazzy** (Ubuntu Server 24.04):
 
 ## Current Status
 
-Weedl is nearly done being designed.
+Weedl is currently being built
 
 ### Documentation
 - [x] Bill of Materials
 - [x] Wiring diagram
-- [ ] Schematic (KiCad) 
+- [X] Schematic (KiCad) 
 - [x] CAD for custom 3D-printed parts (arm, claw)
-- [ ] Chassis assembly diagram 
 
 ### Uprooting mechanism
 - [x] Force analysis complete 
@@ -110,5 +109,5 @@ Weedl is nearly done being designed.
 
 ### Chassis
 - [x] Chassis selected and ordered
-- [ ] Physically assembled
+- [X] Physically assembled
 - [ ] Mounting bracket for the arm — waiting on the chassis measurements above
