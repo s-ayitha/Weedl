@@ -22,10 +22,6 @@ Weedl is a small tracked robot that autonomously covers a backyard and removes w
 
 2. **Uproot mechanically, not chemically** Instead of spraying chemicals into the same garden where fruits and vegetables are grown, Weedl uses a double pivot fork to dig into the roots of a weed and lever it out.
 
-## Journaling/Devlogs
-
-I made this project with Hack Club Stardance. You can look at this project [here](https://stardance.hackclub.com/projects/14197).
-
 ---
 ## How it works
 
